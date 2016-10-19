@@ -224,7 +224,7 @@ int main(){
     printf("Z:\t%f\n", Z); 
     printf("==========================================\n");
     double L = atan(Y/X);
-    double alfa = 1.0/298.3; 
+    double alfa = 1.0/298.257223563; 
     double rr = sqrt( pow(X, 2) + pow(Y, 2) );  
     double B = atan( Z / ( pow((1 - alfa),2)*rr) );      
      printf("==========================================\n");
